@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7624C762D6629AD00515876 /* ClanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7624C752D6629AD00515876 /* ClanViewController.swift */; };
+		C7624C782D6629CD00515876 /* AchievementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7624C772D6629CD00515876 /* AchievementViewController.swift */; };
+		C7624C7A2D6629DD00515876 /* GamerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7624C792D6629DD00515876 /* GamerViewController.swift */; };
+		C7624C7C2D6629EE00515876 /* MissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7624C7B2D6629EE00515876 /* MissionViewController.swift */; };
+		C7624C7E2D662B1900515876 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7624C7D2D662B1900515876 /* ApiManager.swift */; };
+		C7624C802D662C5600515876 /* ClanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7624C7F2D662C5600515876 /* ClanModel.swift */; };
+		C7624C852D662D0100515876 /* ClanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7624C842D662D0100515876 /* ClanViewModel.swift */; };
+		C7624C872D6635A900515876 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7624C862D6635A800515876 /* CustomCell.swift */; };
+		C7624C892D6646E700515876 /* ClanMembersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7624C882D6646E700515876 /* ClanMembersViewModel.swift */; };
+		C7624C8C2D6649F300515876 /* ClanMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7624C8B2D6649F300515876 /* ClanMembersViewController.swift */; };
+		C7624C8E2D664CEC00515876 /* ClanMemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7624C8D2D664CEC00515876 /* ClanMemberCell.swift */; };
+		C7D383822D66272D0084CB80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D383812D66272D0084CB80 /* AppDelegate.swift */; };
+		C7D383842D66272D0084CB80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D383832D66272D0084CB80 /* SceneDelegate.swift */; };
+		C7D3838B2D66272F0084CB80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D3838A2D66272F0084CB80 /* Assets.xcassets */; };
+		C7D3838E2D66272F0084CB80 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C7D3838D2D66272F0084CB80 /* Base */; };
+		EB096A640F8A766C0CD3F122 /* Pods_WFAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C5A98F805917CFB3B1AA3B /* Pods_WFAPP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10D730BCC37DF49812987BBC /* Pods-WFAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFAPP.debug.xcconfig"; path = "Target Support Files/Pods-WFAPP/Pods-WFAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		66C5A98F805917CFB3B1AA3B /* Pods_WFAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WFAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		763891AF3608C5C6B62A4D92 /* Pods-WFAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFAPP.release.xcconfig"; path = "Target Support Files/Pods-WFAPP/Pods-WFAPP.release.xcconfig"; sourceTree = "<group>"; };
+		C7624C752D6629AD00515876 /* ClanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanViewController.swift; sourceTree = "<group>"; };
+		C7624C772D6629CD00515876 /* AchievementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementViewController.swift; sourceTree = "<group>"; };
+		C7624C792D6629DD00515876 /* GamerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamerViewController.swift; sourceTree = "<group>"; };
+		C7624C7B2D6629EE00515876 /* MissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewController.swift; sourceTree = "<group>"; };
+		C7624C7D2D662B1900515876 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		C7624C7F2D662C5600515876 /* ClanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanModel.swift; sourceTree = "<group>"; };
+		C7624C842D662D0100515876 /* ClanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanViewModel.swift; sourceTree = "<group>"; };
+		C7624C862D6635A800515876 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		C7624C882D6646E700515876 /* ClanMembersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanMembersViewModel.swift; sourceTree = "<group>"; };
+		C7624C8B2D6649F300515876 /* ClanMembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanMembersViewController.swift; sourceTree = "<group>"; };
+		C7624C8D2D664CEC00515876 /* ClanMemberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanMemberCell.swift; sourceTree = "<group>"; };
+		C7D3837E2D66272D0084CB80 /* WFAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D383812D66272D0084CB80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7D383832D66272D0084CB80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7D3838A2D66272F0084CB80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7D3838D2D66272F0084CB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7D3838F2D66272F0084CB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7D3837B2D66272D0084CB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB096A640F8A766C0CD3F122 /* Pods_WFAPP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5A2E3692142D46FC65B751 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10D730BCC37DF49812987BBC /* Pods-WFAPP.debug.xcconfig */,
+				763891AF3608C5C6B62A4D92 /* Pods-WFAPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9AEDB18F4190C133CFBF029E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66C5A98F805917CFB3B1AA3B /* Pods_WFAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7624C812D662CC300515876 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7624C8A2D6649DB00515876 /* Clan */,
+				C7624C772D6629CD00515876 /* AchievementViewController.swift */,
+				C7624C792D6629DD00515876 /* GamerViewController.swift */,
+				C7624C7B2D6629EE00515876 /* MissionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C7624C822D662CD600515876 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7624C7F2D662C5600515876 /* ClanModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C7624C832D662CE700515876 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7624C842D662D0100515876 /* ClanViewModel.swift */,
+				C7624C882D6646E700515876 /* ClanMembersViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7624C8A2D6649DB00515876 /* Clan */ = {
+			isa = PBXGroup;
+			children = (
+				C7624C752D6629AD00515876 /* ClanViewController.swift */,
+				C7624C8B2D6649F300515876 /* ClanMembersViewController.swift */,
+			);
+			path = Clan;
+			sourceTree = "<group>";
+		};
+		C7624C8F2D66645000515876 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				C7624C862D6635A800515876 /* CustomCell.swift */,
+				C7624C8D2D664CEC00515876 /* ClanMemberCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		C7624C902D66647B00515876 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C7624C7D2D662B1900515876 /* ApiManager.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C7D383752D66272D0084CB80 = {
+			isa = PBXGroup;
+			children = (
+				C7D383802D66272D0084CB80 /* WFAPP */,
+				C7D3837F2D66272D0084CB80 /* Products */,
+				5D5A2E3692142D46FC65B751 /* Pods */,
+				9AEDB18F4190C133CFBF029E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7D3837F2D66272D0084CB80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7D3837E2D66272D0084CB80 /* WFAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7D383802D66272D0084CB80 /* WFAPP */ = {
+			isa = PBXGroup;
+			children = (
+				C7624C902D66647B00515876 /* Sources */,
+				C7624C8F2D66645000515876 /* CustomCells */,
+				C7624C832D662CE700515876 /* Views */,
+				C7624C822D662CD600515876 /* Models */,
+				C7624C812D662CC300515876 /* Controllers */,
+				C7D383812D66272D0084CB80 /* AppDelegate.swift */,
+				C7D383832D66272D0084CB80 /* SceneDelegate.swift */,
+				C7D3838A2D66272F0084CB80 /* Assets.xcassets */,
+				C7D3838C2D66272F0084CB80 /* LaunchScreen.storyboard */,
+				C7D3838F2D66272F0084CB80 /* Info.plist */,
+			);
+			path = WFAPP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7D3837D2D66272D0084CB80 /* WFAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D383922D66272F0084CB80 /* Build configuration list for PBXNativeTarget "WFAPP" */;
+			buildPhases = (
+				D3DB5B4F294E6DF88BC43A1B /* [CP] Check Pods Manifest.lock */,
+				C7D3837A2D66272D0084CB80 /* Sources */,
+				C7D3837B2D66272D0084CB80 /* Frameworks */,
+				C7D3837C2D66272D0084CB80 /* Resources */,
+				90006328E4A8F6BAACB99114 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFAPP;
+			productName = WFAPP;
+			productReference = C7D3837E2D66272D0084CB80 /* WFAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7D383762D66272D0084CB80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C7D3837D2D66272D0084CB80 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C7D383792D66272D0084CB80 /* Build configuration list for PBXProject "WFAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7D383752D66272D0084CB80;
+			productRefGroup = C7D3837F2D66272D0084CB80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7D3837D2D66272D0084CB80 /* WFAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7D3837C2D66272D0084CB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D3838B2D66272F0084CB80 /* Assets.xcassets in Resources */,
+				C7D3838E2D66272F0084CB80 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90006328E4A8F6BAACB99114 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WFAPP/Pods-WFAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WFAPP/Pods-WFAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WFAPP/Pods-WFAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3DB5B4F294E6DF88BC43A1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WFAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7D3837A2D66272D0084CB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7624C8C2D6649F300515876 /* ClanMembersViewController.swift in Sources */,
+				C7624C7E2D662B1900515876 /* ApiManager.swift in Sources */,
+				C7624C802D662C5600515876 /* ClanModel.swift in Sources */,
+				C7624C892D6646E700515876 /* ClanMembersViewModel.swift in Sources */,
+				C7624C872D6635A900515876 /* CustomCell.swift in Sources */,
+				C7624C762D6629AD00515876 /* ClanViewController.swift in Sources */,
+				C7624C8E2D664CEC00515876 /* ClanMemberCell.swift in Sources */,
+				C7D383822D66272D0084CB80 /* AppDelegate.swift in Sources */,
+				C7624C7A2D6629DD00515876 /* GamerViewController.swift in Sources */,
+				C7624C852D662D0100515876 /* ClanViewModel.swift in Sources */,
+				C7624C7C2D6629EE00515876 /* MissionViewController.swift in Sources */,
+				C7D383842D66272D0084CB80 /* SceneDelegate.swift in Sources */,
+				C7624C782D6629CD00515876 /* AchievementViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7D3838C2D66272F0084CB80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D3838D2D66272F0084CB80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7D383902D66272F0084CB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7D383912D66272F0084CB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7D383932D66272F0084CB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D730BCC37DF49812987BBC /* Pods-WFAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WFAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = koda.WFAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7D383942D66272F0084CB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763891AF3608C5C6B62A4D92 /* Pods-WFAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WFAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = koda.WFAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7D383792D66272D0084CB80 /* Build configuration list for PBXProject "WFAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D383902D66272F0084CB80 /* Debug */,
+				C7D383912D66272F0084CB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D383922D66272F0084CB80 /* Build configuration list for PBXNativeTarget "WFAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D383932D66272F0084CB80 /* Debug */,
+				C7D383942D66272F0084CB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7D383762D66272D0084CB80 /* Project object */;
+}
